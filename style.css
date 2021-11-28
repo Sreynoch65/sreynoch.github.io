@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+.navbar{  
+ 
+    background:black;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    
+}
+.brand-title {
+    text-align: left;
+    
+
+}
+.brand-title{
+    margin: 12px;
+}
+
+.nav-links ul {
+   
+    margin: 40px 30px;
+    display: flex;
+    text-align: top;   
+}
+.nav-links li{
+    
+    list-style: none;
+
+    
+}
+.nav-links li a{
+    
+    text-decoration: none;
+    color: white;
+    padding:  14px 19px;
+    
+}
+.buildyour{
+    padding: 20px 25px;
+    background: blue;
+    border-radius: 50px;
+    color: white;  
+    font-size: 20px;
+    text-align: center;
+}
+.buildyour:hover{
+    background-color: rgb(30, 105, 180);
+}
+.banner{
+    width: 100%;
+    height: 640px;
+    background-image: url(Head.jpg);
+    background-size:cover;
+    background-position: center;
+    color: white;
+    text-decoration: none;
+}
+
+.contents{
+    width: 100%;
+    margin-top: -402px;
+    height: 640px;
+    text-align: center;
+    color:white;
+}
+.contents h1{
+    font-size: 70px;
+    
+
+}
+.paragraph{
+    padding: 40px ;
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background-color: white; 
+}
+.button2{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 20px;
+    background: white;
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(173, 160, 160);
+    text-align: center;
+ 
+}
+.button2:hover{
+    background-color: rgb(77, 77, 240);
+    color: white;
+    
+    
+}
+.small{
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 20px;
+    font-size: 25px;
+    background: rgb(235, 245, 235);
+    margin-left: 40px 40px;
+
+}
+.row{
+    margin-left: 30px;
+    margin: 50px ;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.picture{
+    flex-basis: 35%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.picture p{
+    padding: 0;
+    font-size: 17px;
+    color: rgb(100, 114, 100);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+picture h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.guilding{
+    text-align: center;
+    font-size: 40px;
+}
+.tablethree{
+    padding: 12px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(14, 13, 13);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.tablethree th{
+    padding: 40px 40px;
+    text-align: left;
+    font-size: 23px;
+}
+.tablethree p{
+    padding: 14px;
+    font-size: 17px;
+    text-align: left;
+    width: 330px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+   
+.Essense{
+    
+    width: 100%;
+    height: 650px;
+    background-image:url(Essense.jpg);
+    background-size: cover;
+    text-decoration: none;
+   
+}
+.Essense h1{
+    color: white;
+    font-size: 60px;
+    padding: 300px;
+    text-align: center;
+   
+}
+
+.rows{
+    margin-top: 2%;
+    display: flex;
+   
+}
+.text h5{
+    text-align: center;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.text p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.paragraph2 h1{
+   
+    text-align: center;
+    font-size: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.profile{
+    text-align: center;
+    margin: 34px;
+}
+
+h1{
+    text-align: center;
+}
+.Instagram{
+    margin: 90px 50px;
+    padding: 30px;
+}
+.Instagram h1{
+    font-size: 40px;
+    color: rgb(90, 86, 86);
+    text-align: center;
+    text-align: right;
+}
+.Instagram p{
+    font-size: 20px;
+    text-align: right;
+ 
+}
+
+.picsee{
+   
+    width: 100%;
+    height: 610px;
+    background-image: url(See.jpg);
+    background-size: cover;
+    text-decoration: none;
+}
+.picsee h1{
+    color:white;
+    text-align: center;
+    font-size: 80px;
+    padding: 200px;
+}
+
+.follow{
+    width: 100%;
+   padding: 90px;
+    background: rgb(68, 68, 209);
+    color: white;
+    font-size: 15PX;
+    text-align: center;
+    
+}
+.footer{
+    margin: 160px;
+    text-align: left;
+    font-size: 23px;
+    
+
+}
+
+.Main-wrap{
+    background: white;
+  
+}
+
+    
+
+
+.footer-wrap-1{
+    display: flex;
+    padding: 20px;
+}
+.footer-section{
+    
+    width: 50%;
+  
+    
+}
+.footer-section:last-of-type{
+    width: 3%;
+}
+.footer-section h1{
+    font-size: 22px;
+    color: black;
+    text-align: left;
+    padding: 15px;  
+}
+.footer-section a{
+    margin: 15px;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    
+}
+.footer-wrap p{
+    margin: 27px;
+    font-size: 15px;
+    text-align: left;
+   
+}
+
+.buttonIn{
+    width: 300px;
+    position: relative;
+
+}
+input{
+    position: absolute;
+    font-size: 14px;
+    padding: 18px;
+    width: 250px;
+    outline: none;
+
+
+}
+button{
+    position: absolute;
+    margin:3px ;
+    border: 0.5px solid red;
+    border-radius: 1px;
+    margin-top: 1px;
+    margin-left: 240px;
+    cursor: pointer;
+    color: white;
+    height: 39px;
+    transform: translateX(8px);
+    background-color: blue;
+    padding: 29px 35px;
+    text-align: center;
+    outline: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+   
+}
+input:placeholder-shown{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(68, 68, 209);
+}
+#submit{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding: 28px 30px;
+    margin-bottom: 230px;
+    
+}
+
+
